@@ -5,6 +5,13 @@
 
   <animation>
     <type>material</type>
+    <object-name>blanco</object-name>
+    <object-name>followme</object-name>
+    <object-name>left</object-name>
+    <object-name>right</object-name>
+    <object-name>slowdown</object-name>
+    <object-name>stop</object-name>
+    <object-name>wait</object-name>
     <emission>
       <factor-prop>controls/switches/gauge-light</factor-prop>
       <red>   0.35 </red>

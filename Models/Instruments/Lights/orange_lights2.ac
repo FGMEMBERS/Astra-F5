@@ -1,12 +1,13 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1.0000 1.0000 1.0000  amb 0.2000 0.2000 0.2000  emis 0.0000 0.0000 0.0000  spec 0.5000 0.5000 0.5000  shi 10 trans 0.0000
-MATERIAL "Material_4.001" rgb 1 0.8 0.2 amb 1 0.8 0.2 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "Material_4.002" rgb 1.0000 0.8000 0.2000  amb 0.6667 0.6667 0.6667  emis 0.0000 0.0000 0.0000  spec 0.3300 0.3300 0.3300  shi 32 trans 0.0000
 OBJECT world
 name "Blender_export__orange_lights2.ac"
 kids 2
 OBJECT poly
 name "orange_lightL"
-loc 3.6935272 1.2522650 0.6303725
+loc 3.8976228 0.8032548 0.6303725
+crease 61.0
 numvert 13
 0.0140532 0.0588694 -0.0010299
 -0.0095866 0.0498077 -0.0267851
@@ -133,7 +134,8 @@ refs 3
 kids 0
 OBJECT poly
 name "orange_lightR"
-loc 3.6931522 1.2520000 -0.6300000
+loc 3.8972478 0.8029898 -0.6300001
+crease 61.0
 numvert 13
 0.0110418 -0.0588595 -0.0088199
 -0.0122167 -0.0530122 0.0181826
