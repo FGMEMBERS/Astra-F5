@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- Version: 2016-12-27 -->
+<PropertyList>
+    <name>options_dialog</name>
+    <layout>vbox</layout>
+    <default-padding>5</default-padding>
+    <modal>false</modal>
+    <width>200</width>
+    <!-- title bar -->
+    <group>
+        <layout>hbox</layout>
+        <empty>
+            <stretch>true</stretch>
+        </empty>
+        <text>
+            <label>Steering Options</label>
+        </text>
+        <empty>
+            <stretch>true</stretch>
+        </empty>
+        <button>
+            <legend/>
+            <key>Esc</key>
+            <pref-width>16</pref-width>
+            <pref-height>16</pref-height>
+            <border>2</border>
+            <binding>
+                <command>dialog-close</command>
+            </binding>
+        </button>
+    </group>
+    <hrule/>
+    <layout>hbox</layout>
+    <empty>
+        <stretch>true</stretch>
+    </empty>
+    <checkbox>
+        <row>2</row>
+        <col>1</col>
+        <halign>left</halign>
+        <label>Only aileron controls steering</label>
+        <property>/sim/model/aileron-steering</property>
+        <live>true</live>
+        <binding>
+            <command>property-toggle</command>
+            <property>/sim/model/aileron-steering</property>
+        </binding>
+    </checkbox>
+    <checkbox>
+        <row>2</row>
+        <col>1</col>
+        <halign>left</halign>
+        <label>Only rudder controls steering</label>
+        <property>/sim/model/rudder-steering</property>
+        <live>true</live>
+        <binding>
+            <command>property-toggle</command>
+            <property>/sim/model/rudder-steering</property>
+        </binding>
+    </checkbox>
+    <checkbox>
+        <row>2</row>
+        <col>1</col>
+        <halign>left</halign>
+        <label>Aileron and rudder controls steering</label>
+        <property>/sim/model/both-steering</property>
+        <live>true</live>
+        <binding>
+            <command>property-toggle</command>
+            <property>/sim/model/both-steering</property>
+        </binding>
+    </checkbox>
+</PropertyList>
