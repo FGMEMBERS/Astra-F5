@@ -55,30 +55,25 @@ var update_steering = func {
     if(getprop("/sim/model/aileron-steering")==1){
         setprop(rudder_steering, 0);
         setprop(both_steering, 0);
-        print("Aileron steering!");
     }else if(getprop("/sim/model/rudder-steering")==1){
         setprop(aileron_steering, 0);
         setprop(both_steering, 0);
-        print("Rudder steering!");
     }else if(getprop(both_steering)==1){
-        print("Both steering!");
         setprop(aileron_steering, 0);
         setprop(rudder_steering, 0);
+    }else{
+        print("No steering mode selected! Falling back to aileron steering!");
+        setprop(aileron_steering, 1);
+        setprop(rudder_steering, 0);
+        setprop(both_steering, 0);
     }
-    #else{
-    #    print("No steering mode selected! Falling back to aileron steering!");
-    #    setprop(aileron_steering, 1);
-    #    setprop(rudder_steering, 0);
-   #     setprop(both_steering, 0);
-   # }
     
     var steering="/controls/flight/rudder";
         
     if(getprop("/sim/model/aileron-steering")==1){
         setprop(steering, getprop("/controls/flight/aileron"));
     }else if(getprop("/sim/model/rudder-steering")==1){
-        #setprop(steering, getprop("/controls/flight/rudder"));
-        print("Doing nothing");
+        #nothing
     }else{
         if(getprop("/controls/flight/aileron")!=0){
             setprop(steering, getprop("/controls/flight/aileron"));
