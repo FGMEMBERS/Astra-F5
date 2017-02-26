@@ -637,7 +637,7 @@
 
 <!-- sign for indicators -->
 <model> 
- <path>Aircraft/followme/Models/Instruments/Switch-Lights/pb2.xml</path>
+ <path>Instruments/Switch-Lights/pb2.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.07</y-m>
@@ -647,7 +647,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Instruments/switch-warninglights.xml</path>
+ <path>Instruments/switch-warninglights.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.07</y-m>
@@ -658,7 +658,7 @@
 
 <!-- sign for warninglights -->
 <model> 
- <path>Aircraft/followme/Models/Instruments/Switch-Lights/pb3.xml</path>
+ <path>Instruments/Switch-Lights/pb3.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.05</y-m>
@@ -667,7 +667,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Instruments/switch-indicators.xml</path>
+ <path>Instruments/switch-indicators.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.05</y-m>
@@ -678,7 +678,7 @@
 
 <!-- switch for standlicht -->
 <model> 
- <path>Aircraft/followme/Models/Instruments/switch-position-lights.xml</path>
+ <path>Instruments/switch-position-lights.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.09</y-m>
@@ -689,7 +689,7 @@
 
 <!-- sign for standlicht -->
 <model> 
- <path>Aircraft/followme/Models/Instruments/Switch-Lights/pb.xml</path>
+ <path>Instruments/Switch-Lights/pb.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.09</y-m>
@@ -700,7 +700,7 @@
 
 <!-- switch for fernlicht -->
 <model> 
- <path>Aircraft/followme/Models/Instruments/switch-lights.xml</path>
+ <path>Instruments/switch-lights.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.11</y-m>
@@ -711,7 +711,7 @@
 
 <!-- sign for fernlicht -->
 <model> 
- <path>Aircraft/followme/Models/Instruments/Switch-Lights/pb0.xml</path>
+ <path>Instruments/Switch-Lights/pb0.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.11</y-m>
@@ -722,7 +722,7 @@
 
 <!-- switch for hupe -->
 <model> 
- <path>Aircraft/followme/Models/Instruments/switch-horn.xml</path>
+ <path>Instruments/switch-horn.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.13</y-m>
@@ -733,7 +733,7 @@
 
 <!-- sign for hupe -->
 <model> 
- <path>Aircraft/followme/Models/Instruments/Switch-Lights/pb4.xml</path>
+ <path>Instruments/Switch-Lights/pb4.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.13</y-m>
@@ -745,7 +745,7 @@
 <!--  Control Unit  -->
 
   <model> 
-    <path>Aircraft/followme/Models/Instruments/Switch-Lights/control-unit.xml</path>
+    <path>Instruments/Switch-Lights/control-unit.xml</path>
     <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.01</y-m>
@@ -756,7 +756,7 @@
   
 <!--message setting HerbyW 2016-->
 <model> 
- <path>Aircraft/followme/Models/Messages/w-blanco.xml</path>
+ <path>Messages/w-blanco.xml</path>
  <offsets> 
   <x-m>1.52224</x-m>
   <y-m>-0.18</y-m>
@@ -766,7 +766,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Messages/w-follow_me.xml</path>
+ <path>Messages/w-follow_me.xml</path>
  <offsets> 
   <x-m>1.52224</x-m>
   <y-m>-0.135</y-m>
@@ -776,7 +776,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Messages/w-left.xml</path>
+ <path>Messages/w-left.xml</path>
  <offsets> 
   <x-m>1.52224</x-m>
   <y-m>-0.09</y-m>
@@ -786,7 +786,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Messages/w-right.xml</path>
+ <path>Messages/w-right.xml</path>
  <offsets> 
   <x-m>1.52224</x-m>
   <y-m>-0.045</y-m>
@@ -796,7 +796,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Messages/w-slow_down.xml</path>
+ <path>Messages/w-slow_down.xml</path>
  <offsets> 
   <x-m>1.52224</x-m>
   <y-m>0.00</y-m>
@@ -806,7 +806,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Messages/w-stop.xml</path>
+ <path>Messages/w-stop.xml</path>
  <offsets> 
   <x-m>1.52224</x-m>
   <y-m>0.045</y-m>
@@ -817,7 +817,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Messages/w-wait.xml</path>
+ <path>Messages/w-wait.xml</path>
  <offsets> 
   <x-m>1.52224</x-m>
   <y-m>0.09</y-m>
@@ -829,7 +829,7 @@
 <!--  Engine Starter and Gear Controls  -->
 
 <model> 
- <path>Aircraft/followme/Models/Instruments/starter.xml</path>
+ <path>Instruments/starter.xml</path>
  <offsets> 
   <x-m>1.514</x-m>
   <y-m>-0.2</y-m>
@@ -839,7 +839,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Messages/P.xml</path>
+ <path>Messages/P.xml</path>
  <offsets> 
   <x-m>1.51</x-m>
   <y-m>0.04</y-m>
@@ -848,7 +848,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Messages/R.xml</path>
+ <path>Messages/R.xml</path>
  <offsets> 
   <x-m>1.515</x-m>
   <y-m>0.04</y-m>
@@ -857,7 +857,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Messages/N.xml</path>
+ <path>Messages/N.xml</path>
  <offsets> 
   <x-m>1.52</x-m>
   <y-m>0.04</y-m>
@@ -866,7 +866,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Messages/D.xml</path>
+ <path>Messages/D.xml</path>
  <offsets> 
   <x-m>1.523</x-m>
   <y-m>0.04</y-m>
@@ -875,7 +875,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Messages/D2.xml</path>
+ <path>Messages/D2.xml</path>
  <offsets> 
   <x-m>1.53</x-m>
   <y-m>0.04</y-m>
@@ -888,7 +888,7 @@
 
 <!--smoke and tire effects -->
 <model> 
- <path>Aircraft/followme/Models/Effects/smoke.xml</path>
+ <path>Effects/smoke.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m>-0.6</y-m>
@@ -897,7 +897,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Effects/smoke.xml</path>
+ <path>Effects/smoke.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m> 0.6</y-m>
@@ -907,7 +907,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Effects/smoke-grass.xml</path>
+ <path>Effects/smoke-grass.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m>-0.6</y-m>
@@ -916,7 +916,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Effects/smoke-grass.xml</path>
+ <path>Effects/smoke-grass.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m> 0.6</y-m>
@@ -926,7 +926,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Effects/smoke-sand.xml</path>
+ <path>Effects/smoke-sand.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m>-0.6</y-m>
@@ -935,7 +935,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Effects/smoke-sand.xml</path>
+ <path>Effects/smoke-sand.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m> 0.6</y-m>
@@ -945,7 +945,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Effects/smoke-snow.xml</path>
+ <path>Effects/smoke-snow.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m>-0.6</y-m>
@@ -954,7 +954,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Effects/smoke-snow.xml</path>
+ <path>Effects/smoke-snow.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m> 0.6</y-m>
@@ -964,7 +964,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Effects/tyres.xml</path>
+ <path>Effects/tyres.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m>-0.6</y-m>
@@ -972,7 +972,7 @@
  </offsets>
 </model>
 <model> 
- <path>Aircraft/followme/Models/Effects/tyres.xml</path>
+ <path>Effects/tyres.xml</path>
  <offsets> 
   <x-m> 3.7</x-m>
   <y-m> 0.6</y-m>
@@ -981,7 +981,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Effects/engine.xml</path>
+ <path>Effects/engine.xml</path>
  <offsets> 
   <x-m> 3.95</x-m>
   <y-m> -0.47</y-m>
@@ -991,7 +991,7 @@
 </model>
 
 <model> 
- <path>Aircraft/followme/Models/Effects/running.xml</path>
+ <path>Effects/running.xml</path>
  <offsets> 
   <x-m> 3.95</x-m>
   <y-m> -0.47</y-m>

@@ -3,10 +3,10 @@
     xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd" version="2.0" release="BETA">
 
     <fileheader>
-        <author>Herbert Wagner, Torsten Dreyer, Gijs de Rooy</author>
-        <filecreationdate>2016-05-04</filecreationdate>
-        <version>2.2</version>
-        <description>followme car</description>
+        <author>D-ECHO, Herbert Wagner, Torsten Dreyer, Gijs de Rooy</author>
+        <filecreationdate>2017-02</filecreationdate>
+        <version>1.0</version>
+        <description>Opel Astra F5</description>
     </fileheader>
 
     <metrics>
